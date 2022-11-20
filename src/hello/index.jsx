@@ -1,17 +1,15 @@
+/* eslint-disable react/prop-types */
 import './style.css';
 import PropTypes from 'prop-types';
 
 export function Hello(props) {
-  const a = 1;
-  const arr = Array.from('123');
-
   return (
     <div
       className={`rui-hello ${props.className ?? ''}`}
       style={{ ...(props.style ?? {}) }}
     >
-      {a}
-      {arr}
+      我是第一个组件
+      {props.children}
     </div>
   );
 }
