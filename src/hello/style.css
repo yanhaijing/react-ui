@@ -1,0 +1,8 @@
+.rui-hello {
+  display: flex;
+  background-color: var(--basic-color);
+
+  & p {
+    color: #333;
+  }
+}

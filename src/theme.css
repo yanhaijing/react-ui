@@ -1,0 +1,9 @@
+:root {
+  --basic-color: #5c5cf2;
+  --text-normal: #666666;
+  --text-muted: #999999;
+  --warning-color: #fe8c00;
+  --wrong-color: #ff4a4a;
+  --success-color: #10af75;
+  --font-size-base: 16px;
+}
